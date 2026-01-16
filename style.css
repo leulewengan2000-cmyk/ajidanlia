@@ -44,7 +44,7 @@ body {
    KONTEN DI DALAM OVERLAY
 ===================== */
 .content {
-    width: 390px;
+    width: 1080px;
     min-height: 100vh;
     /* tinggi minimal sama dengan layar */
     position: relative;
@@ -157,7 +157,7 @@ button {
    MAIN
 ===================== */
 main {
-    max-width: 390px;
+    max-width: 1080px;
     margin: auto;
 }
 
@@ -175,8 +175,8 @@ section {
    HERO
 ===================== */
 .hero {
-    width: 390px;
-    height: 844px;
+    width: 1080px;
+    height: 1920px;
     position: relative;
     margin: 0 auto;
     overflow: hidden;
@@ -595,7 +595,7 @@ footer {
 /* TIMELINE */
 .timeline {
     position: relative;
-    max-width: 390px;
+    max-width: 1080px;
     margin: 0 auto;
     padding-left: 56px;
 }
@@ -647,7 +647,7 @@ footer {
 /* denyut */
 .timeline-marker.active {
     color: #d63384;
-    animation: pulse 0.8s ease-out;
+    animation: pulse 0.9s ease-out;
 }
 
 @keyframes pulse {
@@ -685,7 +685,7 @@ footer {
 .our-gallery {
     position: relative;
     width: 100%;
-    min-height: 844px;
+    min-height: 1920px;
     /* tinggi sesuai background */
     background: url('bg5.png') center top / cover no-repeat;
     padding: 60px 16px;
@@ -697,7 +697,7 @@ footer {
 }
 
 .gallery-content {
-    max-width: 390px;
+    max-width: 1080px;
     /* sesuai w photo */
     width: 100%;
 }
@@ -1214,8 +1214,8 @@ textarea {
 /* SECTION PENUTUP */
 #closing {
     position: relative;
-    width: 390px;
-    height: 844px;
+    width: 1080px;
+    height: 1920px;
     margin: auto;
     background: url('bg-penutup.jpg') center/cover no-repeat;
     overflow: hidden;

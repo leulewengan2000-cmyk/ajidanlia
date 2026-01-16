@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const viewHeight = window.innerHeight;
 
         /* progress scroll (dipelanin) */
-        let progress = (viewHeight - rect.top) * 0.8; // ⬅️ KUNCI: bikin TURUN LEBIH PELAN
+        let progress = (viewHeight - rect.top) * 0.9; // ⬅️ KUNCI: bikin TURUN LEBIH PELAN
         progress = Math.max(0, progress);
 
         /* batas sampai marker terakhir */
